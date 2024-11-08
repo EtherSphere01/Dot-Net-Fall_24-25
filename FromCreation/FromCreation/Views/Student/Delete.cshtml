@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+<h2>Delete</h2>
+
+<table>
+    <tr><td colspan="2">Are you sure?</td></tr>
+    <tr>
+        <td>
+            @using (Html.BeginForm())
+            {
+
+                <input type="submit" class="btn btn-danger" value="Delete" />
+                <input type="hidden" value="@Model.Name" />
+                <input type="hidden" value="@Model.Id" />
+                <input type="hidden" value="@Model.Email" />
+                <input type="hidden" value="@Model.Dob" />
+             }
+            </td>
+        <td>
+            <a href="/student/display" class="btn btn-primary">Cancel</a>
+        </td>
+</table>

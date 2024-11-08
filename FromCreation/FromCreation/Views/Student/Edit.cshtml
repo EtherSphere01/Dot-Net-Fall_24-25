@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Student Information Edit</h2>
+
+<form method="post">
+    <input type="text" value=@Model.Name name="Name" placeholder="Name" /><br />
+    <span class="alert-danger"> @Html.ValidationMessage("Name") </span><br />
+    <input type="text" value=@Model.Id name="Id" placeholder="Id" readonly /><br />
+    <span class="alert-danger">@Html.ValidationMessage("Id")</span><br />
+    <input type="date" value=@Model.Dob name="Dob" placeholder="Dob" /><br />
+    <span class="alert-danger">@Html.ValidationMessage("Dob")</span><br />
+    <input type="text" value=@Model.Email name="Email" placeholder="Email" readonly /><br />
+    <span class="alert-danger">@Html.ValidationMessage("Email")</span><br />
+    <input type="submit" class="btn btn-primary" value="Submit" name="Submit" />
+</form>
+

@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Display";
+}
+
+<h2>Student Details</h2>
+
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Name</th>
+            <th>Id</th>
+            <th>Dob</th>
+            <th>Email</th>
+            <th>Edit</th>
+            <th>Details</th>
+            <th>Delete</th>
+        </tr>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Name</td>
+                <td>@student.Id</td>
+                <td>@student.Dob</td>
+                <td>@student.Email</td>
+                <td>
+                    <a href="/student/edit/@student.Id" class="btn btn-primary">Edit</a>
+                </td>
+                <td>
+                    <a href="/student/details/@student.Id" class="btn btn-primary">Details</a>
+                </td>
+                <td>
+                    <a href="/student/delete/@student.Id" class="btn btn-danger">Delete</a>
+                </td>
+
+            </tr>
+        }
+
+    </table>
+<a href="https://localhost:44329/Student/Form" class="btn btn-primary">Create</a>
+
+
+

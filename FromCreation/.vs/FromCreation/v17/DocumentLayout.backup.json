@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\Visual studio program\\FromCreation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|d:\\visual studio program\\fromcreation\\fromcreation\\models\\customannotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|solutionrelative:fromcreation\\models\\customannotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|D:\\Visual studio program\\FromCreation\\fromcreation\\models\\studentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|solutionrelative:fromcreation\\models\\studentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|d:\\visual studio program\\fromcreation\\fromcreation\\views\\student\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|solutionrelative:fromcreation\\views\\student\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|D:\\Visual studio program\\FromCreation\\fromcreation\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|solutionrelative:fromcreation\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|d:\\visual studio program\\fromcreation\\fromcreation\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|solutionrelative:fromcreation\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|d:\\visual studio program\\fromcreation\\fromcreation\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|solutionrelative:fromcreation\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|D:\\Visual studio program\\FromCreation\\fromcreation\\views\\student\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|solutionrelative:fromcreation\\views\\student\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|d:\\visual studio program\\fromcreation\\fromcreation\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|solutionrelative:fromcreation\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|d:\\visual studio program\\fromcreation\\fromcreation\\models\\customannotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E194D04E-9144-4518-A45D-23B8AD611DDA}|FromCreation\\FromCreation.csproj|solutionrelative:fromcreation\\models\\customannotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,43 +42,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Visual studio program\\FromCreation\\FromCreation\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FromCreation\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "D:\\Visual studio program\\FromCreation\\FromCreation\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "FromCreation\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T13:47:13.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Visual studio program\\FromCreation\\FromCreation\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "FromCreation\\Views\\Student\\Details.cshtml",
+              "ToolTip": "D:\\Visual studio program\\FromCreation\\FromCreation\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "FromCreation\\Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T13:32:26.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CustomAnnotation.cs",
               "DocumentMoniker": "D:\\Visual studio program\\FromCreation\\FromCreation\\Models\\CustomAnnotation.cs",
               "RelativeDocumentMoniker": "FromCreation\\Models\\CustomAnnotation.cs",
               "ToolTip": "D:\\Visual studio program\\FromCreation\\FromCreation\\Models\\CustomAnnotation.cs",
               "RelativeToolTip": "FromCreation\\Models\\CustomAnnotation.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAwDAAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowFQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T18:35:23.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentInfo.cs",
               "DocumentMoniker": "D:\\Visual studio program\\FromCreation\\FromCreation\\Models\\StudentInfo.cs",
               "RelativeDocumentMoniker": "FromCreation\\Models\\StudentInfo.cs",
               "ToolTip": "D:\\Visual studio program\\FromCreation\\FromCreation\\Models\\StudentInfo.cs",
               "RelativeToolTip": "FromCreation\\Models\\StudentInfo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T16:41:46.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form.cshtml",
               "DocumentMoniker": "D:\\Visual studio program\\FromCreation\\FromCreation\\Views\\Student\\Form.cshtml",
               "RelativeDocumentMoniker": "FromCreation\\Views\\Student\\Form.cshtml",
               "ToolTip": "D:\\Visual studio program\\FromCreation\\FromCreation\\Views\\Student\\Form.cshtml",
               "RelativeToolTip": "FromCreation\\Views\\Student\\Form.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-31T16:33:35.914Z",
               "EditorCaption": ""
@@ -75,9 +117,35 @@
               "RelativeDocumentMoniker": "FromCreation\\Controllers\\StudentController.cs",
               "ToolTip": "D:\\Visual studio program\\FromCreation\\FromCreation\\Controllers\\StudentController.cs",
               "RelativeToolTip": "FromCreation\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAYwHcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T16:33:00.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Visual studio program\\FromCreation\\FromCreation\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FromCreation\\Views\\Student\\Delete.cshtml",
+              "ToolTip": "D:\\Visual studio program\\FromCreation\\FromCreation\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "FromCreation\\Views\\Student\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T14:05:00.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\Visual studio program\\FromCreation\\FromCreation\\Views\\Student\\Display.cshtml",
+              "RelativeDocumentMoniker": "FromCreation\\Views\\Student\\Display.cshtml",
+              "ToolTip": "D:\\Visual studio program\\FromCreation\\FromCreation\\Views\\Student\\Display.cshtml",
+              "RelativeToolTip": "FromCreation\\Views\\Student\\Display.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T09:34:50.759Z",
               "EditorCaption": ""
             }
           ]

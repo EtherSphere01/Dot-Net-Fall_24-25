@@ -77,3 +77,7 @@ D:\Visual studio program\FromCreation\FromCreation\obj\Debug\FromCreation.csproj
 D:\Visual studio program\FromCreation\FromCreation\obj\Debug\FromCrea.1F433BF7.Up2Date
 D:\Visual studio program\FromCreation\FromCreation\obj\Debug\FromCreation.dll
 D:\Visual studio program\FromCreation\FromCreation\obj\Debug\FromCreation.pdb
+D:\Visual studio program\FromCreation\FromCreation\bin\EntityFramework.dll
+D:\Visual studio program\FromCreation\FromCreation\bin\EntityFramework.SqlServer.dll
+D:\Visual studio program\FromCreation\FromCreation\bin\EntityFramework.xml
+D:\Visual studio program\FromCreation\FromCreation\bin\EntityFramework.SqlServer.xml

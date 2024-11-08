@@ -26,10 +26,6 @@ namespace FromCreation.Models
         [CustomEmail]
         public string Email { get; set; }
 
-        //internal static string ReferenceEquals(string v)
-        //{
-        //    throw new NotImplementedException();
-        //}
     }
   
 }
