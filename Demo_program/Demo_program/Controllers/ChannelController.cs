@@ -34,6 +34,15 @@ namespace Demo_program.Controllers
         {
             if (ModelState.IsValid)
             {
+                var isExist = (from var in db.Channels
+                               where var.ChannelName == channel.ChannelName
+                               select var).SingleOrDefault();
+                if (isExist!=null)
+                {
+                    TempData["msg"] = "Channel Name Already Exist";
+                    return View(channel);
+                }
+
                 db.Channels.Add(ConvertDTO.Convert(channel));
                 TempData["msg"] = "Channel Added Successfully";
                 db.SaveChanges();

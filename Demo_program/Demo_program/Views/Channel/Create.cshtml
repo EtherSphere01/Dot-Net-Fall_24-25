@@ -4,7 +4,10 @@
 }
 
 <h2>Create Channel</h2>
-
+@if (TempData["msg"] != null)
+            {
+                <span class="alert-warning bg-danger text-white">@TempData["msg"]</span>
+            }
 <form method="post">
     <span>Channel Name</span>
     <input type="text" value="@Model.ChannelName" name="ChannelName" class="form-control" />
