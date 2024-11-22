@@ -3,28 +3,34 @@
     ViewBag.Title = "List";
 }
 
+
 <h2>List of all Channels</h2>
+@if (TempData["msg"] != null)
+{
+    <span class="text-bg-success">@TempData["msg"]</span>
+}
 <table class="table table-bordered">
     <tr>
-       <th>Channel ID</th>
+        <th>Channel ID</th>
         <th>Channel Name</th>
         <th>Established Year</th>
         <th>Country</th>
         <th></th>
     </tr>
     @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@item.ChannelId</td>
-                    <td>@item.ChannelName</td>
-                    <td>@item.EstablishedYear</td>
-                    <td>@item.Country</td>
-                    <td>
-                        <a href="/channel/edit/@item.ChannelId" class="btn btn-warning">Edit</a>
-                        <a href="/channel/delete/@item.ChannelId" class="btn btn-danger">Delete</a>
-                        <a href="/channel/details/@item.ChannelId" class="btn btn-primary">Details</a>
-                    </td>
-                    </tr>
-            }
+    {
+        <tr>
+            <td>@item.ChannelId</td>
+            <td>@item.ChannelName</td>
+            <td>@item.EstablishedYear</td>
+            <td>@item.Country</td>
+            <td>
+                <a href="/channel/edit/@item.ChannelId" class="btn btn-warning">Edit</a>
+                <a href="/channel/delete/@item.ChannelId" class="btn btn-danger">Delete</a>
+                <a href="/channel/details/@item.ChannelId" class="btn btn-primary">Details</a>
+            </td>
+        </tr>
+    }
 </table>
 <a href="/channel/create" class="btn btn-warning">Create channel</a>
+<a href="/program/programlist" class="btn btn-warning">Goto Programs</a>
