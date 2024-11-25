@@ -12,6 +12,7 @@ namespace Demo_program.Controllers
         // GET: Program
         DemoExamEntities db = new DemoExamEntities();
 
+<<<<<<< HEAD
         [HttpGet]
         public ActionResult ProgramList()
         {
@@ -36,6 +37,15 @@ namespace Demo_program.Controllers
             return View(ViewBag.program_list);
         }
 
+=======
+        public ActionResult ProgramList()
+        {
+            var Channel_list = db.Channels.ToList();
+            var Program = db.Programs.ToList();
+            return View(ConvertDTO.Convert(Channel_list));
+        }
+
+>>>>>>> 6eb76497803488b636ee382897fa53bae15886b9
         [HttpGet]
         public ActionResult Create()
         {

@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Demo_program\\",
+  "WorkspaceRootPath": "D:\\Visual studio program\\Demo_program\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|d:\\demo_program\\demo_program\\views\\program\\programlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|solutionrelative:demo_program\\views\\program\\programlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -40,6 +41,25 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|D:\\Demo_program\\demo_program\\dtos\\channeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|d:\\visual studio program\\demo_program\\demo_program\\views\\channel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|solutionrelative:demo_program\\views\\channel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|D:\\Visual studio program\\Demo_program\\demo_program\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|solutionrelative:demo_program\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|D:\\Visual studio program\\Demo_program\\demo_program\\views\\channel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|solutionrelative:demo_program\\views\\channel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|D:\\Visual studio program\\Demo_program\\demo_program\\validation\\customvalidaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|solutionrelative:demo_program\\validation\\customvalidaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|D:\\Visual studio program\\Demo_program\\demo_program\\dtos\\channeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 6eb76497803488b636ee382897fa53bae15886b9
       "RelativeMoniker": "D:0:0:{D331A6E3-371B-4970-93D4-002E711D6EA6}|Demo_program\\Demo_program.csproj|solutionrelative:demo_program\\dtos\\channeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,6 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -123,6 +144,17 @@
               "DocumentMoniker": "D:\\Demo_program\\Demo_program\\Views\\Channel\\Create.cshtml",
               "RelativeDocumentMoniker": "Demo_program\\Views\\Channel\\Create.cshtml",
               "ToolTip": "D:\\Demo_program\\Demo_program\\Views\\Channel\\Create.cshtml",
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Visual studio program\\Demo_program\\Demo_program\\Views\\Channel\\Create.cshtml",
+              "RelativeDocumentMoniker": "Demo_program\\Views\\Channel\\Create.cshtml",
+              "ToolTip": "D:\\Visual studio program\\Demo_program\\Demo_program\\Views\\Channel\\Create.cshtml",
+>>>>>>> 6eb76497803488b636ee382897fa53bae15886b9
               "RelativeToolTip": "Demo_program\\Views\\Channel\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -131,6 +163,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 8,
               "Title": "CustomValidaton.cs",
               "DocumentMoniker": "D:\\Demo_program\\Demo_program\\Validation\\CustomValidaton.cs",
@@ -176,6 +209,55 @@
               "RelativeToolTip": "Demo_program\\DTOs\\ChannelDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+=======
+              "DocumentIndex": 3,
+              "Title": "CustomValidaton.cs",
+              "DocumentMoniker": "D:\\Visual studio program\\Demo_program\\Demo_program\\Validation\\CustomValidaton.cs",
+              "RelativeDocumentMoniker": "Demo_program\\Validation\\CustomValidaton.cs",
+              "ToolTip": "D:\\Visual studio program\\Demo_program\\Demo_program\\Validation\\CustomValidaton.cs",
+              "RelativeToolTip": "Demo_program\\Validation\\CustomValidaton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:06:53.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChannelController.cs",
+              "DocumentMoniker": "D:\\Visual studio program\\Demo_program\\Demo_program\\Controllers\\ChannelController.cs",
+              "RelativeDocumentMoniker": "Demo_program\\Controllers\\ChannelController.cs",
+              "ToolTip": "D:\\Visual studio program\\Demo_program\\Demo_program\\Controllers\\ChannelController.cs",
+              "RelativeToolTip": "Demo_program\\Controllers\\ChannelController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T05:54:54.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Visual studio program\\Demo_program\\Demo_program\\Views\\Channel\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Demo_program\\Views\\Channel\\Edit.cshtml",
+              "ToolTip": "D:\\Visual studio program\\Demo_program\\Demo_program\\Views\\Channel\\Edit.cshtml",
+              "RelativeToolTip": "Demo_program\\Views\\Channel\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T06:49:55.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChannelDTO.cs",
+              "DocumentMoniker": "D:\\Visual studio program\\Demo_program\\Demo_program\\DTOs\\ChannelDTO.cs",
+              "RelativeDocumentMoniker": "Demo_program\\DTOs\\ChannelDTO.cs",
+              "ToolTip": "D:\\Visual studio program\\Demo_program\\Demo_program\\DTOs\\ChannelDTO.cs",
+              "RelativeToolTip": "Demo_program\\DTOs\\ChannelDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+>>>>>>> 6eb76497803488b636ee382897fa53bae15886b9
               "WhenOpened": "2024-11-20T05:55:53.79Z"
             }
           ]

@@ -5,6 +5,7 @@
 
 <h2>Program List</h2>
 @if (TempData["msg"] != null)
+<<<<<<< HEAD
 {
     <span class="text-bg-success bg-opacity-75">@TempData["msg"]</span>
 }
@@ -41,6 +42,11 @@
         </select>
         <input type="submit" name="button" value="Filter" class="btn btn-primary" />
     </form>
+=======
+            {
+                <span class="text-bg-success bg-opacity-75">@TempData["msg"]</span>
+            }
+>>>>>>> 6eb76497803488b636ee382897fa53bae15886b9
 
 <table class="table table-bordered">
 
@@ -49,6 +55,7 @@
         <tr>
             <th colspan="5" align="center" class="text-center text-bg-info">@item.ChannelName</th>
         </tr>
+<<<<<<< HEAD
 
         if (item.Programs.Count != 0)
         {
@@ -81,6 +88,40 @@
             </tr>
         }
     }
+=======
+        
+            if(item.Programs.Count!=0)
+            {
+                <tr>
+                    <th>Program ID</th>
+                    <th>Program Name</th>
+                    <th>Air Time</th>
+                    <th>TRP Score</th>
+                    <th>Operations</th>
+                </tr>
+                 foreach (var program in item.Programs)
+                {
+                    <tr>
+                        <td>@program.ProgramId</td>
+                        <td>@program.ProgramName</td>
+                        <td>@program.AirTime</td>
+                        <td>@program.TRPScore</td>
+                        <td>
+                            <a href="/program/edit/@program.ProgramId" class="btn btn-warning">Edit</a>
+                            <a href="/program/delete/@program.ProgramId" class="btn btn-danger">Delete</a>
+                            <a href="/program/details/@program.ProgramId" class="btn btn-primary">Details</a>
+                        </td>
+                    </tr>
+                }
+             }
+            else
+            {
+                <tr>
+                    <td colspan="5" class="text-bg-light">No Program Available</td>
+                </tr>
+            }
+     }
+>>>>>>> 6eb76497803488b636ee382897fa53bae15886b9
 </table>
 
 <a href="/program/create" class="btn btn-warning">Create Program</a>
