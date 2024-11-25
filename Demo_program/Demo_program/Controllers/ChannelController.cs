@@ -1,7 +1,9 @@
 ﻿using Demo_program.DTOs;
 using Demo_program.EF;
+using Demo_program.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -13,45 +15,12 @@ namespace Demo_program.Controllers
         // GET: Channel
         DemoExamEntities db = new DemoExamEntities();
 
-
-       public static ChannelDTO Convert(Channel c)
-        {
-           return new ChannelDTO
-            {
-               ChannelId = c.ChannelId,
-               ChannelName = c.ChannelName,
-               EstablishedYear = c.EstablishedYear,
-               Country = c.Country,
-               
-           };
-        }
-
-        public static Channel Convert(ChannelDTO c)
-        {
-            return new Channel
-            {
-                ChannelId = c.ChannelId,
-                ChannelName = c.ChannelName,
-                EstablishedYear = c.EstablishedYear,
-                Country = c.Country,
-            }; 
-        }
-
-        public static List<ChannelDTO> Convert(List<Channel> c)
-        {
-            List<ChannelDTO> result = new List<ChannelDTO>();
-            foreach (var item in c)
-            {
-                result.Add(Convert(item));
-            }
-            return result;
-        }
        
         public ActionResult List()
         {
             var channels = db.Channels.ToList();
             Session["increase"] = "1";
-            return View(Convert(channels));
+            return View(ConvertDTO.Convert(channels));
         }
 
         [HttpGet]
@@ -63,28 +32,47 @@ namespace Demo_program.Controllers
         [HttpPost]
        public ActionResult Create(ChannelDTO channel)
         {
-            db.Channels.Add(Convert(channel));
-            db.SaveChanges();
-            return RedirectToAction("List");
+            if (ModelState.IsValid)
+            {
+                var isExist = (from var in db.Channels
+                               where var.ChannelName == channel.ChannelName
+                               select var).SingleOrDefault();
+                if (isExist!=null)
+                {
+                    TempData["msg"] = "Channel Name Already Exist";
+                    return View(channel);
+                }
+
+                db.Channels.Add(ConvertDTO.Convert(channel));
+                TempData["msg"] = "Channel Added Successfully";
+                db.SaveChanges();
+                return RedirectToAction("List");
+            }
+            return View(channel);
         }
 
         [HttpGet]
         public ActionResult Edit(int id)
         {
             var channel = db.Channels.Find(id);
-            return View(Convert(channel));
+            return View(ConvertDTO.Convert(channel));
         }
 
         [HttpPost]
         public ActionResult Edit(ChannelDTO channel)
         {
-            var channel_find = db.Channels.Find(channel.ChannelId);
+            if (ModelState.IsValid)
+            {
+                var channel_find = db.Channels.Find(channel.ChannelId);
 
-            channel_find.ChannelName = channel.ChannelName;
-            channel_find.EstablishedYear = channel.EstablishedYear;
-            channel_find.Country = channel.Country;
-            db.SaveChanges();
-            return RedirectToAction("List");
+                channel_find.ChannelName = channel.ChannelName;
+                channel_find.EstablishedYear = channel.EstablishedYear;
+                channel_find.Country = channel.Country;
+                TempData["msg"] = "Channel Edit Successfully";
+                db.SaveChanges();
+                return RedirectToAction("List");
+            }
+            return View(channel);
         }
 
         [HttpGet]
@@ -102,7 +90,7 @@ namespace Demo_program.Controllers
             {
                 TempData["msg"] = "You cant delete this channel because it has programs.";
             }
-            return View(Convert(channel));
+            return View(ConvertDTO.Convert(channel));
         }
         [HttpPost]
         public ActionResult Delete(ChannelDTO channel, string dcsn)
@@ -119,12 +107,14 @@ namespace Demo_program.Controllers
                     TempData["msg"] = "You cant delete this channel because it has programs.";
                     ViewBag.plist = p;
                     TempData["cnt"] = Session["increase"];
-                    return View(Convert(channel_find));
+                    return View(ConvertDTO.Convert(channel_find));
                 }
                 else
                 {
                    db.Channels.Remove(channel_find);
+                    TempData["msg"] = "Channel Delete Successfully";
                 }
+                
                 db.SaveChanges();
             }
             return RedirectToAction("List");
@@ -137,7 +127,7 @@ namespace Demo_program.Controllers
                                 where item.ChannelId == id
                                 select item).ToList();
             ViewBag.plist = program_list;
-            return View(Convert(channel));
+            return View(ConvertDTO.Convert(channel));
         }
     }
 }

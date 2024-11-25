@@ -4,14 +4,20 @@
 }
 
 <h2>Create Channel</h2>
-
+@if (TempData["msg"] != null)
+            {
+                <span class="alert-warning bg-danger text-white">@TempData["msg"]</span>
+            }
 <form method="post">
     <span>Channel Name</span>
     <input type="text" value="@Model.ChannelName" name="ChannelName" class="form-control" />
+    <span class="text-danger">@Html.ValidationMessage("ChannelName")</span><br />
     <span>Established Year</span>
     <input type="number" value="@Model.EstablishedYear" min="1900" name="EstablishedYear" class="form-control" />
+    <span class="text-danger">@Html.ValidationMessage("EstablishedYear")</span><br />
     <span>Country</span>
     <input type="text" value="@Model.Country" name="Country" class="form-control" />
+    <span class="text-danger">@Html.ValidationMessage("Country")</span>
     <br />
     <input type="submit" value="Create" class="btn btn-primary" />
     <a href="/channel/list" class="btn btn-warning">Back to List</a>

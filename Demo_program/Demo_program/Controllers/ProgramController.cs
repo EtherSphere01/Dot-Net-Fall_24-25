@@ -1,11 +1,9 @@
 ﻿using Demo_program.DTOs;
 using Demo_program.EF;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Serialization;
-using System.Web;
 using System.Web.Mvc;
+using Demo_program.Models;
 
 namespace Demo_program.Controllers
 {
@@ -14,54 +12,86 @@ namespace Demo_program.Controllers
         // GET: Program
         DemoExamEntities db = new DemoExamEntities();
 
-
-        public static ProgramDTO Convert(Program p)
-        {
-            return new ProgramDTO
-            {
-                ProgramId = p.ProgramId,
-                ProgramName = p.ProgramName,
-                TRPScore = p.TRPScore,
-                AirTime = p.AirTime,
-                ChannelId = p.ChannelId,
-            };
-        }
-
-        public static Program Convert(ProgramDTO p)
-        {
-            return new Program
-            {
-                ProgramId = p.ProgramId,
-                ProgramName = p.ProgramName,
-                TRPScore = p.TRPScore,
-                AirTime = p.AirTime,
-                ChannelId = p.ChannelId,
-            };
-        }
-
-        public static List<ProgramDTO> Convert(List<Program> p)
-        {
-            List<ProgramDTO> result = new List<ProgramDTO>();
-            foreach (var item in p)
-            {
-                result.Add(Convert(item));
-            }
-            return result;
-        }
-
+        [HttpGet]
         public ActionResult ProgramList()
         {
-            var Channels = db.Channels.ToList();
-            List<Program> programs = new List<Program>();
-            foreach(var item in Channels)
-            {
-                var program_list = (Convert(from item2 in db.Programs
-                                            where item2.ChannelId == item.ChannelId
-                                            select item2).ToList()));
-                programs.Add(program_list);
-            }
+            //var Channel_list = db.Channels.ToList();
+            //var temp = (from item in db.Channels
+            //            where item.ChannelId == (int)5
+            //            select item).ToList();
 
-            return View(programs);
+            var Program = db.Programs.ToList();
+            ViewBag.program_list = null;
+            ViewBag.Channel_list = ConvertDTO.Convert(db.Channels.ToList());
+            return View(ViewBag.Channel_list);
         }
+
+        [HttpPost]
+        public ActionResult ProgramList(int id)
+        {
+            ViewBag.program_list = ConvertDTO.Convert((from item in db.Channels
+                                where item.ChannelId == (int)id
+                                select item).ToList());
+            ViewBag.Channel_list = ConvertDTO.Convert(db.Channels.ToList());
+            return View(ViewBag.program_list);
+        }
+
+        [HttpGet]
+        public ActionResult Create()
+        {
+            ViewBag.channels = ConvertDTO.Convert(db.Channels.ToList());
+            return View(new Program());
+        }
+        [HttpPost]
+        public ActionResult Create(ProgramDTO program)
+        {
+            db.Programs.Add(ConvertDTO.Convert(program));
+            TempData["msg"] = "Program Added Successfully";
+            db.SaveChanges();
+            return RedirectToAction("ProgramList");
+        }
+
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            var program = db.Programs.Find(id);
+            ViewBag.channels = ConvertDTO.Convert(db.Channels.ToList());
+            ViewBag.Channel_name = db.Channels.Find(program.ChannelId);
+            return View(ConvertDTO.Convert(program));
+        }
+        [HttpPost]
+        public ActionResult Edit(ProgramDTO program)
+        {
+            var program_find = db.Programs.Find(program.ProgramId);
+            program_find.ProgramName = program.ProgramName;
+            program_find.TRPScore = program.TRPScore;
+            program_find.AirTime = program.AirTime;
+            program_find.ChannelId = program.ChannelId;
+            TempData["msg"] = "Program Edit Successfully";
+            db.SaveChanges();
+            return RedirectToAction("ProgramList");
+        }
+
+        [HttpGet]
+        public ActionResult Delete(int id)
+        {
+            var program = db.Programs.Find(id);
+            ViewBag.Channel_name = db.Channels.Find(program.ChannelId);
+            return View(ConvertDTO.Convert(program));
+        }
+        [HttpPost]
+        public ActionResult Delete(ProgramDTO program, string dcsn)
+        {
+            var program_find = db.Programs.Find(program.ProgramId);
+            if (dcsn == "Yes")
+            {
+                db.Programs.Remove(program_find);
+                TempData["msg"] = "Program Deleted Successfully";
+                db.SaveChanges();
+            }
+            return RedirectToAction("ProgramList");
+        }
+
+        
     }
 }
