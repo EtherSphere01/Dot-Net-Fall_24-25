@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List of Products</h2>
+<span>
+    @if (TempData["msg"]!=null)
+            {
+                <span class="text-danger">@TempData["msg"]</span>
+            
+            }
+
+</span>
+
+<table class="table">
+    <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Reorder Level</th>
+    </tr>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Quantity</td>
+            <td>@product.Reorder</td>
+            <td>
+                <a href="/admin/details/@product.Id" class="btn btn-warning">Details</a>
+                @{
+                    var user = (MidExam.DTOs.LoginDTO)Session["user"];
+                    MidExam.EF.InventoryEntities1 db = new EF.InventoryEntities1();
+                    var finduser = (from item in db.Users
+                                    where item.Email == user.Email && item.Password == user.Password
+                                    select item).SingleOrDefault();
+                }
+
+                @if (user != null && finduser.Role == 1)
+                {
+                    <a href="/admin/edit/@product.Id" class="btn btn-warning">Edit</a>
+                    <a href="/admin/delete/@product.Id" class="btn btn-danger">Delete</a>
+                }
+                </td>
+        </tr>
+    }
+</table>
+<a href="/Admin/Create" class="btn btn-secondary">Back to List</a>
+
+
+

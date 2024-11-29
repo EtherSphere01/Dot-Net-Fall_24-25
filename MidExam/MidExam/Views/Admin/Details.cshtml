@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Product Details</h2>
+<table>
+    <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Reorder Level</th>
+    </tr>
+    <tr>
+        <td>@Model.Id</td>
+        <td>@Model.Name</td>
+        <td>@Model.Quantity</td>
+        <td>@Model.Reorder</td>
+    </tr>
+</table>
+<a href="/Admin/List" class="btn btn-secondary">Back to List</a>
+
