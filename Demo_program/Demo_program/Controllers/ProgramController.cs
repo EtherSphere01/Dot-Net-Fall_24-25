@@ -12,11 +12,28 @@ namespace Demo_program.Controllers
         // GET: Program
         DemoExamEntities db = new DemoExamEntities();
 
+        [HttpGet]
         public ActionResult ProgramList()
         {
-            var Channel_list = db.Channels.ToList();
+            //var Channel_list = db.Channels.ToList();
+            //var temp = (from item in db.Channels
+            //            where item.ChannelId == (int)5
+            //            select item).ToList();
+
             var Program = db.Programs.ToList();
-            return View(ConvertDTO.Convert(Channel_list));
+            ViewBag.program_list = null;
+            ViewBag.Channel_list = ConvertDTO.Convert(db.Channels.ToList());
+            return View(ViewBag.Channel_list);
+        }
+
+        [HttpPost]
+        public ActionResult ProgramList(int id)
+        {
+            ViewBag.program_list = ConvertDTO.Convert((from item in db.Channels
+                                where item.ChannelId == (int)id
+                                select item).ToList());
+            ViewBag.Channel_list = ConvertDTO.Convert(db.Channels.ToList());
+            return View(ViewBag.program_list);
         }
 
         [HttpGet]

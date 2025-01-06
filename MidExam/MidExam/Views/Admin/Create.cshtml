@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create Product</h2>
+
+<form method="post">
+    <span>Product Name</span>
+    <input type="text" name="name" value="@Model.Name" class="form-control" />
+    <span class="text-danger">@Html.ValidationMessage("Name")</span><br />
+    <span>Quantity</span>
+    <input type="number" name="quantity" value="@Model.Quantity" min="1" class="form-control" />
+    <span class="text-danger">@Html.ValidationMessage("Quantity")</span><br />
+    <span>Reorder Level</span>
+    <input type="number" name="reorder" value="@Model.Reorder" min="1" class="form-control" />
+    <span class="text-danger">@Html.ValidationMessage("Reorder")</span><br />
+    <input type="submit" value="Create" class="btn btn-primary" />
+    <a href="/Admin/List" class="btn btn-secondary">Back to List</a>
+</form>
+

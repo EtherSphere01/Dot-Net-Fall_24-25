@@ -1,0 +1,14 @@
+D:\Visual studio program\IntroTier\BLL\bin\Debug\BLL.dll
+D:\Visual studio program\IntroTier\BLL\bin\Debug\BLL.pdb
+D:\Visual studio program\IntroTier\BLL\bin\Debug\DAL.dll
+D:\Visual studio program\IntroTier\BLL\bin\Debug\DAL.pdb
+D:\Visual studio program\IntroTier\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Visual studio program\IntroTier\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Visual studio program\IntroTier\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\Visual studio program\IntroTier\BLL\obj\Debug\BLL.dll
+D:\Visual studio program\IntroTier\BLL\obj\Debug\BLL.pdb
+D:\Visual studio program\IntroTier\BLL\bin\Debug\AutoMapper.dll
+D:\Visual studio program\IntroTier\BLL\bin\Debug\EntityFramework.dll
+D:\Visual studio program\IntroTier\BLL\bin\Debug\DAL.dll.config
+D:\Visual studio program\IntroTier\BLL\bin\Debug\AutoMapper.xml
+D:\Visual studio program\IntroTier\BLL\bin\Debug\EntityFramework.xml
