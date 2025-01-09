@@ -1,0 +1,14 @@
+D:\PresentationLayer\BLL\bin\Debug\BLL.dll
+D:\PresentationLayer\BLL\bin\Debug\BLL.pdb
+D:\PresentationLayer\BLL\bin\Debug\DAL.dll
+D:\PresentationLayer\BLL\bin\Debug\DAL.pdb
+D:\PresentationLayer\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\PresentationLayer\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\PresentationLayer\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\PresentationLayer\BLL\obj\Debug\BLL.dll
+D:\PresentationLayer\BLL\obj\Debug\BLL.pdb
+D:\PresentationLayer\BLL\bin\Debug\AutoMapper.dll
+D:\PresentationLayer\BLL\bin\Debug\EntityFramework.dll
+D:\PresentationLayer\BLL\bin\Debug\DAL.dll.config
+D:\PresentationLayer\BLL\bin\Debug\AutoMapper.xml
+D:\PresentationLayer\BLL\bin\Debug\EntityFramework.xml

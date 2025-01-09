@@ -1,0 +1,14 @@
+D:\PresentationLayer\DAL\bin\Debug\DAL.dll
+D:\PresentationLayer\DAL\bin\Debug\DAL.pdb
+D:\PresentationLayer\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\PresentationLayer\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\PresentationLayer\DAL\obj\Debug\DAL.dll
+D:\PresentationLayer\DAL\obj\Debug\DAL.pdb
+D:\PresentationLayer\DAL\bin\Debug\DAL.dll.config
+D:\PresentationLayer\DAL\bin\Debug\EntityFramework.dll
+D:\PresentationLayer\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\PresentationLayer\DAL\bin\Debug\EntityFramework.xml
+D:\PresentationLayer\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\PresentationLayer\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\PresentationLayer\DAL\obj\Debug\DAL.Migrations.init.resources
+D:\PresentationLayer\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
