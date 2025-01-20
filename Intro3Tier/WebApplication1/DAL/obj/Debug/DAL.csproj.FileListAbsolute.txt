@@ -1,0 +1,14 @@
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\bin\Debug\DAL.dll
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\bin\Debug\DAL.pdb
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\obj\Debug\DAL.dll
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\obj\Debug\DAL.pdb
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\bin\Debug\DAL.dll.config
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\bin\Debug\EntityFramework.dll
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\bin\Debug\EntityFramework.xml
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\obj\Debug\DAL.Migrations.init.resources
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

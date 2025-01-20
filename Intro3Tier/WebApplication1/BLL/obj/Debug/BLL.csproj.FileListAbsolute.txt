@@ -1,0 +1,14 @@
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\bin\Debug\BLL.dll
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\bin\Debug\BLL.pdb
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\bin\Debug\DAL.dll
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\bin\Debug\DAL.pdb
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\obj\Debug\BLL.dll
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\obj\Debug\BLL.pdb
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\bin\Debug\EntityFramework.dll
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\bin\Debug\DAL.dll.config
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\bin\Debug\EntityFramework.xml
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\bin\Debug\AutoMapper.dll
+D:\Dot-Net-Fall_24-25\Intro3Tier\WebApplication1\BLL\bin\Debug\AutoMapper.xml
