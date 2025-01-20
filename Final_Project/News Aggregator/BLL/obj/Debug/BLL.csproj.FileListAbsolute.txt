@@ -1,0 +1,12 @@
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\bin\Debug\BLL.dll
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\bin\Debug\BLL.pdb
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\bin\Debug\DAL.dll
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\bin\Debug\DAL.pdb
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\obj\Debug\BLL.dll
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\obj\Debug\BLL.pdb
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\bin\Debug\AutoMapper.dll
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\bin\Debug\DAL.dll.config
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\bin\Debug\AutoMapper.xml
