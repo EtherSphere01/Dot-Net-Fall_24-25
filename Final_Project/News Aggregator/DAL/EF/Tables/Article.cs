@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,15 @@ namespace DAL.EF.Tables
 
         [Required]
         public string Tag { get; set; }
+
+        [Required]
+        public string Author { get; set; }
+
+        public int Count { get; set; }
+
+        [ForeignKey("Tg")]
+        public int? TgId { get; set; }
+        public virtual Tag Tg { get; set; }
 
 
     }

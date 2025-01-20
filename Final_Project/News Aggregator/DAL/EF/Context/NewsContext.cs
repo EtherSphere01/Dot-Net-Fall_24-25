@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.EF.Tables;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -9,5 +10,7 @@ namespace DAL.EF.Context
 {
     public class NewsContext : DbContext
     {
+        public DbSet<Article> Articles { get; set; }
+        public DbSet<Tag> Tags { get; set; }
     }
 }
