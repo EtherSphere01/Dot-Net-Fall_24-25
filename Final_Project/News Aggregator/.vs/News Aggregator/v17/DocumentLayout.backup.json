@@ -1,90 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\",
+  "WorkspaceRootPath": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DF7AA23-2027-42FE-9367-B226B0024877}|News Aggregator\\News Aggregator.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\news aggregator\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{6DF7AA23-2027-42FE-9367-B226B0024877}|News Aggregator\\News Aggregator.csproj|solutionrelative:news aggregator\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{6DF7AA23-2027-42FE-9367-B226B0024877}|News Aggregator\\News Aggregator.csproj|D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\news aggregator\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF7AA23-2027-42FE-9367-B226B0024877}|News Aggregator\\News Aggregator.csproj|solutionrelative:news aggregator\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\bll\\services\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|solutionrelative:bll\\services\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\interfaces\\iuserfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iuserfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\repos\\tagrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\tagrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\interfaces\\itagfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\itagfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\interfaces\\iarticlefeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iarticlefeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\ef\\context\\newscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\context\\newscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\bll\\dtos\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\bll\\dtos\\articledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\articledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\bll\\dtos\\articletagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\articletagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\bll\\dtos\\tagarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\tagarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\bll\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|solutionrelative:bll\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|d:\\github\\dot-net-fall_24-25\\final_project\\news aggregator\\dal\\ef\\tables\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DF7AA23-2027-42FE-9367-B226B0024877}|News Aggregator\\News Aggregator.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\news aggregator\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF7AA23-2027-42FE-9367-B226B0024877}|News Aggregator\\News Aggregator.csproj|solutionrelative:news aggregator\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DF7AA23-2027-42FE-9367-B226B0024877}|News Aggregator\\News Aggregator.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\news aggregator\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF7AA23-2027-42FE-9367-B226B0024877}|News Aggregator\\News Aggregator.csproj|solutionrelative:news aggregator\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\ef\\tables\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\repos\\articlerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\repos\\articlerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\articlerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|d:\\dot-net-fall_24-25\\final_project\\news aggregator\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|d:\\dot-net-fall_24-25\\final_project\\news aggregator\\dal\\ef\\tables\\sharearticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\sharearticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|d:\\dot-net-fall_24-25\\final_project\\news aggregator\\dal\\interfaces\\iusershare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iusershare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\bll\\services\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC24C66F-5EB1-4ABB-B856-95F1CCED7714}|BLL\\BLL.csproj|solutionrelative:bll\\services\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\dal\\interfaces\\iarticlefeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1312D50-7C88-4AF5-9361-A71608CEC42F}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iarticlefeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,275 +50,137 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ArticleService.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\services\\ArticleService.cs",
-              "RelativeDocumentMoniker": "BLL\\services\\ArticleService.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\services\\ArticleService.cs",
-              "RelativeToolTip": "BLL\\services\\ArticleService.cs",
-              "ViewState": "AgIAACYAAACAzMzMzMwEwDoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T14:49:21.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IArticleFeature.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\interfaces\\IArticleFeature.cs",
-              "RelativeDocumentMoniker": "DAL\\interfaces\\IArticleFeature.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\interfaces\\IArticleFeature.cs",
-              "RelativeToolTip": "DAL\\interfaces\\IArticleFeature.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T17:17:55.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TagDTO.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\dtos\\TagDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\dtos\\TagDTO.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\dtos\\TagDTO.cs",
-              "RelativeToolTip": "BLL\\dtos\\TagDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:30:40.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NewsContext.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\EF\\Context\\NewsContext.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Context\\NewsContext.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\EF\\Context\\NewsContext.cs",
-              "RelativeToolTip": "DAL\\EF\\Context\\NewsContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T07:16:50.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IRepo.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\interfaces\\IRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\interfaces\\IRepo.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\interfaces\\IRepo.cs",
-              "RelativeToolTip": "DAL\\interfaces\\IRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T14:32:54.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ITagFeature.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\interfaces\\ITagFeature.cs",
-              "RelativeDocumentMoniker": "DAL\\interfaces\\ITagFeature.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\interfaces\\ITagFeature.cs",
-              "RelativeToolTip": "DAL\\interfaces\\ITagFeature.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T17:48:53.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TagRepo.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\repos\\TagRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\repos\\TagRepo.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\repos\\TagRepo.cs",
-              "RelativeToolTip": "DAL\\repos\\TagRepo.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAqwDIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T17:38:10.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Repo.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\repos\\Repo.cs",
-              "RelativeDocumentMoniker": "DAL\\repos\\Repo.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\repos\\Repo.cs",
-              "RelativeToolTip": "DAL\\repos\\Repo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T14:31:50.321Z",
+              "WhenOpened": "2025-01-21T17:23:20.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\News Aggregator\\Web.config",
-              "RelativeDocumentMoniker": "News Aggregator\\Web.config",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\News Aggregator\\Web.config",
-              "RelativeToolTip": "News Aggregator\\Web.config",
-              "ViewState": "AgIAAC0AAADAH/iBH7gowDkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-01-20T07:13:50.333Z",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\News Aggregator\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "News Aggregator\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\News Aggregator\\Controllers\\UserController.cs",
+              "RelativeToolTip": "News Aggregator\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAkwHAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T13:53:50.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\repos\\UserRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\repos\\UserRepo.cs",
+              "ToolTip": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\repos\\UserRepo.cs",
+              "RelativeToolTip": "DAL\\repos\\UserRepo.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:11:12.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\services\\UserService.cs",
+              "RelativeDocumentMoniker": "BLL\\services\\UserService.cs",
+              "ToolTip": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\services\\UserService.cs",
+              "RelativeToolTip": "BLL\\services\\UserService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAEwD4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:47:15.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShareArticle.cs",
+              "DocumentMoniker": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\EF\\Tables\\ShareArticle.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\ShareArticle.cs",
+              "ToolTip": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\EF\\Tables\\ShareArticle.cs",
+              "RelativeToolTip": "DAL\\EF\\Tables\\ShareArticle.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:34:18.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserShare.cs",
+              "DocumentMoniker": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\interfaces\\IUserShare.cs",
+              "RelativeDocumentMoniker": "DAL\\interfaces\\IUserShare.cs",
+              "ToolTip": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\interfaces\\IUserShare.cs",
+              "RelativeToolTip": "DAL\\interfaces\\IUserShare.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:38:28.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserFeature.cs",
+              "DocumentMoniker": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\interfaces\\IUserFeature.cs",
+              "RelativeDocumentMoniker": "DAL\\interfaces\\IUserFeature.cs",
+              "ToolTip": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\interfaces\\IUserFeature.cs",
+              "RelativeToolTip": "DAL\\interfaces\\IUserFeature.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAnwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:01:56.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArticleService.cs",
+              "DocumentMoniker": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\services\\ArticleService.cs",
+              "RelativeDocumentMoniker": "BLL\\services\\ArticleService.cs",
+              "ToolTip": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\services\\ArticleService.cs",
+              "RelativeToolTip": "BLL\\services\\ArticleService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwGgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:48:34.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArticleRepo.cs",
+              "DocumentMoniker": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\repos\\ArticleRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\repos\\ArticleRepo.cs",
+              "ToolTip": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\repos\\ArticleRepo.cs",
+              "RelativeToolTip": "DAL\\repos\\ArticleRepo.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwD0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:47:50.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ArticleDTO.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\dtos\\ArticleDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\dtos\\ArticleDTO.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\dtos\\ArticleDTO.cs",
-              "RelativeToolTip": "BLL\\dtos\\ArticleDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAwAAAAkAAAAAAAAAA==",
+              "Title": "IArticleFeature.cs",
+              "DocumentMoniker": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\interfaces\\IArticleFeature.cs",
+              "RelativeDocumentMoniker": "DAL\\interfaces\\IArticleFeature.cs",
+              "ToolTip": "D:\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\interfaces\\IArticleFeature.cs",
+              "RelativeToolTip": "DAL\\interfaces\\IArticleFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:02:30.41Z",
+              "WhenOpened": "2025-01-21T14:46:58.065Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ArticleTagDTO.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\DTOs\\ArticleTagDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\ArticleTagDTO.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\DTOs\\ArticleTagDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\ArticleTagDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:27:34.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TagArticleDTO.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\DTOs\\TagArticleDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\TagArticleDTO.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\DTOs\\TagArticleDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\TagArticleDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:36:46.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DataAccessFactory.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\DataAccessFactory.cs",
-              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\DataAccessFactory.cs",
-              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
-              "ViewState": "AgIAABAAAABgZmZmZmYswBwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T14:35:52.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TagService.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\services\\TagService.cs",
-              "RelativeDocumentMoniker": "BLL\\services\\TagService.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\services\\TagService.cs",
-              "RelativeToolTip": "BLL\\services\\TagService.cs",
-              "ViewState": "AgIAADoAAAAgAAAAAAAmwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T17:43:58.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Article.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\EF\\Tables\\Article.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Article.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\EF\\Tables\\Article.cs",
-              "RelativeToolTip": "DAL\\EF\\Tables\\Article.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwBgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T07:26:49.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ArticleController.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\News Aggregator\\Controllers\\ArticleController.cs",
-              "RelativeDocumentMoniker": "News Aggregator\\Controllers\\ArticleController.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\News Aggregator\\Controllers\\ArticleController.cs",
-              "RelativeToolTip": "News Aggregator\\Controllers\\ArticleController.cs",
-              "ViewState": "AgIAAA4AAACAZmZmZmYowCUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:42:34.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ArticleRepo.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\repos\\ArticleRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\repos\\ArticleRepo.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\repos\\ArticleRepo.cs",
-              "RelativeToolTip": "DAL\\repos\\ArticleRepo.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAmwEUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T14:38:29.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TagController.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\News Aggregator\\Controllers\\TagController.cs",
-              "RelativeDocumentMoniker": "News Aggregator\\Controllers\\TagController.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\News Aggregator\\Controllers\\TagController.cs",
-              "RelativeToolTip": "News Aggregator\\Controllers\\TagController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T17:56:43.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Tag.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\EF\\Tables\\Tag.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Tag.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\EF\\Tables\\Tag.cs",
-              "RelativeToolTip": "DAL\\EF\\Tables\\Tag.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:14:19.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "DAL\\Class1.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\DAL\\Class1.cs",
-              "RelativeToolTip": "DAL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T07:01:40.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\Class1.cs",
-              "RelativeDocumentMoniker": "BLL\\Class1.cs",
-              "ToolTip": "D:\\GitHub\\Dot-Net-Fall_24-25\\Final_Project\\News Aggregator\\BLL\\Class1.cs",
-              "RelativeToolTip": "BLL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T07:01:10.726Z"
             }
           ]
         }

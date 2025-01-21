@@ -12,5 +12,8 @@ namespace DAL.EF.Context
     {
         public DbSet<Article> Articles { get; set; }
         public DbSet<Tag> Tags { get; set; }
+        public DbSet<ShareArticle> ShareArticles { get; set; }
+        public DbSet<BookmarkArticle> BookmarkArticles { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

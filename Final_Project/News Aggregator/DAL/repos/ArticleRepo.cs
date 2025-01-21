@@ -35,38 +35,6 @@ namespace DAL.Repos
             return articles;
         }
 
-        public List<Article> GetByAuthor(string author)
-        {
-           var articles = (from a in db.Articles
-                           where a.Author == author
-                           select a).ToList();
-            return articles;
-        }
-
-        public List<Article> GetByDate(DateTime Date)
-        {
-            var articles = (from a in db.Articles
-                            where a.Date == Date
-                            select a).ToList();
-            return articles;
-        }
-
-        public List<Article> GetByTag(string tag)
-        {
-            var articles = (from a in db.Articles
-                            where a.Tag.Contains(tag)
-                            select a).ToList();
-            return articles;
-        }
-
-        public List<Article> GetByTitle(string title)
-        {
-            var articles = (from a in db.Articles
-                            where a.Title.Contains(title)
-                            select a).ToList();
-            return articles;
-        }
-
         public bool Update(Article obj)
         {
             var article = db.Articles.Find(obj.Id);
@@ -85,6 +53,13 @@ namespace DAL.Repos
                            where a.TgId == tgid
                            select a).ToList();
             return article;
+        }
+
+        public void UpdateTrending(int id)
+        {
+            var article = db.Articles.Find(id);
+            article.Count++;
+            db.SaveChanges();
         }
     }
 }

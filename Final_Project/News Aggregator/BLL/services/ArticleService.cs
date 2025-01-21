@@ -101,29 +101,10 @@ namespace BLL.Services
             return GetMapper().Map<List<ArticleDTO>>(repo.GetAll());
         }
 
-        public List<ArticleDTO> GetByTag(string tag)
+        public void UpdateTrending(int id)
         {
             var repo = DataAccessFactory.ArticleFeature();
-            return GetMapper().Map<List<ArticleDTO>>(repo.GetByTag(tag));
+            repo.UpdateTrending(id);
         }
-
-        public List<ArticleDTO> GetByAuthor(string author)
-        {
-            var repo = DataAccessFactory.ArticleFeature();
-            return GetMapper().Map<List<ArticleDTO>>(repo.GetByAuthor(author));
-        }
-
-        public List<ArticleDTO> GetByDate(DateTime date)
-        {
-            var repo = DataAccessFactory.ArticleFeature();
-            return GetMapper().Map<List<ArticleDTO>>(repo.GetByDate(date));
-        }
-
-        public List<ArticleDTO> GetByTitle(string title)
-        {
-            var repo = DataAccessFactory.ArticleFeature();
-            return GetMapper().Map<List<ArticleDTO>>(repo.GetByTitle(title));
-        }
-
     }
 }

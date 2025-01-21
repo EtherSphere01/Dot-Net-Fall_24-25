@@ -47,11 +47,19 @@
     <Compile Include="Class1.cs" />
     <Compile Include="DTOs\ArticleDTO.cs" />
     <Compile Include="DTOs\ArticleTagDTO.cs" />
+    <Compile Include="DTOs\BookmarkArticleDTO.cs" />
+    <Compile Include="DTOs\BookmarkArticleUserDTO.cs" />
+    <Compile Include="DTOs\ShareDTO.cs" />
+    <Compile Include="DTOs\ShareUserDTO.cs" />
     <Compile Include="DTOs\TagArticleDTO.cs" />
     <Compile Include="DTOs\TagDTO.cs" />
+    <Compile Include="DTOs\UserBookmarkArticleDTO.cs" />
+    <Compile Include="DTOs\UserDTO.cs" />
+    <Compile Include="DTOs\UserShareDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ArticleService.cs" />
     <Compile Include="Services\TagService.cs" />
+    <Compile Include="Services\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

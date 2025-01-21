@@ -9,11 +9,8 @@ namespace DAL.Interfaces
 {
     public interface IArticleFeature
     {
-         List<Article> GetByTag(string tag);
-         List<Article> GetByDate(DateTime Date);
-         List<Article> GetByAuthor(string author);
-        List<Article> GetByTitle(string title);
         List<Article> UpdateTag(int tagid);
+        void UpdateTrending(int id);
 
 
     }

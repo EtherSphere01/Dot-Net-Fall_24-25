@@ -30,5 +30,15 @@ namespace DAL
         {
             return new TagRepo();
         }
+
+        public static IUserFeature UserData()
+        {
+            return new UserRepo();
+        }
+
+        public static IUserShare UserShare()
+        {
+            return new UserRepo();
+        }
     }
 }

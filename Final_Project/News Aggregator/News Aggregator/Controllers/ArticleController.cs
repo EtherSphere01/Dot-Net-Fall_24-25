@@ -56,43 +56,6 @@ namespace News_Aggregator.Controllers
             var data = service.Delete(id);
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
-        [HttpPost]
-        [Route("api/Article/getbytag/{tag}")]
-        public HttpResponseMessage GetByTag(string tag)
-        {
-            var service = new ArticleService();
-            var data = service.GetByTag(tag);
-            return Request.CreateResponse(HttpStatusCode.OK, data);
-        }
-
-        [HttpPost]
-        [Route("api/Article/getbyauthor/{author}")]
-        public HttpResponseMessage GetByAuthor(string author)
-        {
-            var service = new ArticleService();
-            var data = service.GetByAuthor(author);
-            return Request.CreateResponse(HttpStatusCode.OK, data);
-        }
-
-        [HttpPost]
-        [Route("api/Article/getbydate/{date}")]
-        public HttpResponseMessage GetByDate(DateTime date)
-        {
-            var service = new ArticleService();
-            var data = service.GetByDate(date);
-            return Request.CreateResponse(HttpStatusCode.OK, data);
-        }
-
-        [HttpPost]
-        [Route("api/Article/getbytitle/{title}")]
-        public HttpResponseMessage GetByTitle(string title)
-        {
-            var service = new ArticleService();
-            var data = service.GetByTitle(title);
-            return Request.CreateResponse(HttpStatusCode.OK, data);
-        }
-
-
 
     }
 }

@@ -14,10 +14,20 @@
 
         protected override void Seed(DAL.EF.Context.NewsContext context)
         {
-            //  This method will be called after migrating to the latest version.
+            //Random rand = new Random();
+            //string[] platforms = { "Facebook", "Twitter", "Instagram", "LinkedIn", "Pinterest" };
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    context.ShareArticles.AddOrUpdate(new EF.Tables.ShareArticle()
+            //    {
+            //        ArticleId = rand.Next(1,13),
+            //        SharedDate = DateTime.Now,
+            //        UserId = rand.Next(1, 11),
+            //        Platform = platforms[rand.Next(0, platforms.Length)]
+            //    });
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method
-            //  to avoid creating duplicate seed data.
+            //}
+            //context.SaveChanges();
         }
     }
 }
