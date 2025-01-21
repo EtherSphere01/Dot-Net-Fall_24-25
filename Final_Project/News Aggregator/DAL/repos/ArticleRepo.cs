@@ -59,6 +59,14 @@ namespace DAL.Repos
             return articles;
         }
 
+        public List<Article> GetByTitle(string title)
+        {
+            var articles = (from a in db.Articles
+                            where a.Title.Contains(title)
+                            select a).ToList();
+            return articles;
+        }
+
         public bool Update(Article obj)
         {
             var article = db.Articles.Find(obj.Id);

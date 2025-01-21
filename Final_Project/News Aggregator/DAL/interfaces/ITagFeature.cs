@@ -10,5 +10,6 @@ namespace DAL.Interfaces
     public interface ITagFeature
     {
         Tag duplicate(string name);
+        Tag isavailable(string name);
     }
 }

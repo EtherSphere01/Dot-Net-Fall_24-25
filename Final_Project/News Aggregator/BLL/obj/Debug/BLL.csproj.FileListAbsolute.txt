@@ -24,3 +24,5 @@ D:\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\obj\Debug\BLL.csproj.Cor
 D:\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\obj\Debug\BLL.csproj.Up2Date
 D:\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\obj\Debug\BLL.dll
 D:\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\obj\Debug\BLL.pdb
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\bin\Debug\EntityFramework.dll
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\BLL\bin\Debug\EntityFramework.xml

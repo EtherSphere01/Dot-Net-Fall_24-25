@@ -149,3 +149,8 @@ D:\Dot-Net-Fall_24-25\Final_Project\News Aggregator\News Aggregator\bin\DAL.dll
 D:\Dot-Net-Fall_24-25\Final_Project\News Aggregator\News Aggregator\bin\AutoMapper.xml
 D:\Dot-Net-Fall_24-25\Final_Project\News Aggregator\News Aggregator\bin\DAL.pdb
 D:\Dot-Net-Fall_24-25\Final_Project\News Aggregator\News Aggregator\bin\DAL.dll.config
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\News Aggregator\bin\AutoMapper.dll
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\News Aggregator\bin\DAL.dll
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\News Aggregator\bin\AutoMapper.xml
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\News Aggregator\bin\DAL.pdb
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\News Aggregator\bin\DAL.dll.config

@@ -83,6 +83,15 @@ namespace News_Aggregator.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
+        [HttpPost]
+        [Route("api/Article/getbytitle/{title}")]
+        public HttpResponseMessage GetByTitle(string title)
+        {
+            var service = new ArticleService();
+            var data = service.GetByTitle(title);
+            return Request.CreateResponse(HttpStatusCode.OK, data);
+        }
+
 
 
     }

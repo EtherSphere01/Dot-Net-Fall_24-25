@@ -55,7 +55,10 @@
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\Context\NewsContext.cs" />
     <Compile Include="EF\Tables\Article.cs" />
+    <Compile Include="EF\Tables\BookmarkArticle.cs" />
+    <Compile Include="EF\Tables\ShareArticle.cs" />
     <Compile Include="EF\Tables\Tag.cs" />
+    <Compile Include="EF\Tables\User.cs" />
     <Compile Include="Interfaces\IArticleFeature.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Interfaces\ITagFeature.cs" />

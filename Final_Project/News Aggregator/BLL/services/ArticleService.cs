@@ -30,7 +30,27 @@ namespace BLL.Services
         {
             var repo = DataAccessFactory.ArticleData();
             obj.Date = DateTime.Now.Date;
-            var value = repo.Create(GetMapper().Map<Article>(obj));
+            var tag = obj.Tag;
+            var repo2 = DataAccessFactory.TagFeature();
+            var isavailable = repo2.isavailable(tag);
+
+            var convert = GetMapper().Map<Article>(obj);
+            if (isavailable == null)
+            {
+                var tagobj = new TagDTO();
+                tagobj.Name = tag;
+                var tagrepo = DataAccessFactory.TagData();
+                tagrepo.Create(GetMapper().Map<Tag>(tagobj));
+                convert.Tag = tag;
+                isavailable = repo2.isavailable(tag);
+                convert.TgId = isavailable.Id;
+            }
+            else
+            {
+                convert.Tag = tag;
+                convert.TgId = isavailable.Id;
+            }
+            var value = repo.Create(convert);
             if (value == true)
             {
                 return "Article Created Successfully";
@@ -97,6 +117,12 @@ namespace BLL.Services
         {
             var repo = DataAccessFactory.ArticleFeature();
             return GetMapper().Map<List<ArticleDTO>>(repo.GetByDate(date));
+        }
+
+        public List<ArticleDTO> GetByTitle(string title)
+        {
+            var repo = DataAccessFactory.ArticleFeature();
+            return GetMapper().Map<List<ArticleDTO>>(repo.GetByTitle(title));
         }
 
     }

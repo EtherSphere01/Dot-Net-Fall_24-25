@@ -48,5 +48,13 @@ namespace DAL.Repos
 
         }
 
+        public Tag isavailable(string name)
+        {
+            var value = (from t in db.Tags
+                         where t.Name == name
+                         select t).FirstOrDefault();
+            return value;
+        }
+
     }
 }

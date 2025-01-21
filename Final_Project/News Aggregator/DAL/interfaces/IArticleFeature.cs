@@ -12,7 +12,8 @@ namespace DAL.Interfaces
          List<Article> GetByTag(string tag);
          List<Article> GetByDate(DateTime Date);
          List<Article> GetByAuthor(string author);
-         List<Article> UpdateTag(int tagid);
+        List<Article> GetByTitle(string title);
+        List<Article> UpdateTag(int tagid);
 
 
     }
