@@ -34,3 +34,5 @@ D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\DAL\obj\Debug\DAL.Mig
 D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 D:\Dot-Net-Fall_24-25\Final_Project\News Aggregator\DAL\obj\Debug\DAL.Migrations.newtable_added.resources
 D:\Dot-Net-Fall_24-25\Final_Project\News Aggregator\DAL\obj\Debug\DAL.Migrations.usernameTOuserid.resources
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\DAL\obj\Debug\DAL.Migrations.newtable_added.resources
+D:\GitHub\Dot-Net-Fall_24-25\Final_Project\News Aggregator\DAL\obj\Debug\DAL.Migrations.usernameTOuserid.resources

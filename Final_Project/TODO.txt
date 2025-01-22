@@ -6,3 +6,4 @@ Features:
 5) Bookmark article for later reading, remove, show bookmarks by user
 6) Trending news Section / Last N trending news / Trending news by date
 7) Share on social media / get shares by user/ get shares by platform / delete share
+8) Exported CSV of article

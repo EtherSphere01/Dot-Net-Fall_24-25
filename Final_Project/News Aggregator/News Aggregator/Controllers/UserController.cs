@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Text;
 using System.Web.Http;
+using System.Net.Http.Headers;
 
 namespace News_Aggregator.Controllers
 {
@@ -151,6 +153,29 @@ namespace News_Aggregator.Controllers
             var service = new UserService();
             var data = service.GetShareByPlatform(platform, userId);
             return Request.CreateResponse(HttpStatusCode.OK, data);
+        }
+
+
+        //////////////////////////////csv/////////////////////////////
+        [HttpGet]
+        [Route("api/user/export/{date}")]
+        public HttpResponseMessage ExportApplicationsToCsv(DateTime date)
+        {
+            var service = new UserService();
+            var csvContent = service.GenerateCsvForApplications(date);
+
+
+            // Prepare the response
+            var result = new HttpResponseMessage(HttpStatusCode.OK)
+            {
+                Content = new StringContent(csvContent, Encoding.UTF8, "text/csv")
+            };
+            result.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("attachment")
+            {
+                FileName = "Article.csv"
+            };
+
+            return result;
         }
     }
 }
