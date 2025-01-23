@@ -197,11 +197,9 @@ namespace BLL.Services
 
             var applications = DataAccessFactory.UserData();
             var data = applications.GetByDate(date);
-            // Add CSV headers
+
             csvBuilder.AppendLine("Content,Author,Date,Tag");
 
-
-            // Add data rows
             foreach (var i in data)
             {
                 csvBuilder.AppendLine($"{i.Content},{i.Author},{i.Date},{i.Tag}");

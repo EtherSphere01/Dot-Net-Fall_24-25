@@ -164,8 +164,6 @@ namespace News_Aggregator.Controllers
             var service = new UserService();
             var csvContent = service.GenerateCsvForApplications(date);
 
-
-            // Prepare the response
             var result = new HttpResponseMessage(HttpStatusCode.OK)
             {
                 Content = new StringContent(csvContent, Encoding.UTF8, "text/csv")
